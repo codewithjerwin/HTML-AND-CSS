@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    background-color: #EAF6F6;
+    color: #40514E;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+#about {
+    padding-top: 8%;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 8px;
+}
+
+.navbar {
+    background-color: #11CDD4;
+    padding: 1% 10%;
+}
+
+#home {
+    margin-top: 11rem;
+}
+
+.nav-link {
+    color: #40514E;
+}
+
+.reverse-outline:hover {
+    background-color: #40514E;
+    color: black;
+}
+.reverse-outline:hover:active {
+    background-color: #40514E;
+}
+
+.outline-reverse:hover {
+    background-color: #40514E;
+}
+.outline-reverse:hover:active {
+    background-color: #40514E;
+}
+
+.greetings{
+    padding: 12% 0 12% 15%;
+}
+
+.profile-picture {
+    padding: 7% 8%;
+}
+
+.button-group .btn {
+    margin: 10% 10px 0;
+}
+.about-section1 {
+    padding-left: 5%;
+}
+.about-img {
+    border-radius: 50%; 
+}
+.nav-item {
+    padding: 0 12px;
+}
+
+.about-tabs {
+    display: flex;
+    margin: 30px 0;
+}
+
+.about-section2 {
+    padding: 4% 10% 0 7%;
+}
+
+.about-section2 p {
+    font-size: 1.25rem;
+    color: #8f8f8f;
+}
+
+.tab-links {
+    margin-right: 20px;
+    position: relative;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.tab-links::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #11CDD4;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active-link::after {
+    width: 50%;
+}
+
+.tab-contents ul li {
+    list-style: none;
+    margin: 10px 0;
+    font-size: 1.15rem;
+    color: #8f8f8f;
+}
+
+.tab-contents ul li span {
+    color: #11CDD4;
+    font-weight: 700;
+}
+
+.tab-contents ul {
+    padding: 0;
+}
+
+.tab-contents {
+    display: none;
+}
+
+.tab-contents.active-tab {
+    display: block;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.skills-image {
+    width: 45%;
+}
+
+
+#skills {
+    padding-top: 8%;
+}
+
+.container-fluid {
+    margin-top: 3rem;
+}
+.skills-section {
+    padding: 7% 15%;
+}
+/* 
+.skills-description {
+    margin: 1rem 0;
+} */
+
+h3 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* .skills-description p {
+    color: #8f8f8f;
+    font-size: 1rem;
+} */
+
+.head3 h3, .head3 p {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-page {
+    padding: 0 25%;
+}
+
+.contact-page h2 {
+    margin-bottom: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: #8f8f8f;
+}
+.contact-form {
+    padding: 5% 5% 8% 25%;
+}
+
+.contact-information {
+    padding: 5% 25% 8% 8%;
+}
+
+.desc {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.help {
+    width: 15%;
+}
+
+footer {
+    background-color: #11CDD4;
+}
+
+footer a{
+    text-decoration: none;
+    margin: 10px 30px;
+    color: #40514E;
+    font-size: 1rem;
+}
+
+footer p {
+    font-size: 1.25rem;
+    margin: 0;
+    padding-top: 1.5rem;
+}
