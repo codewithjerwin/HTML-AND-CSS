@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Personal Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <section id="header">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <a href="#" class="navbar-brand">
+          <img src="/images/J4's logo.png" class="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto text-end">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <section id="home" class="bg-red">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col greetings">
+            <h1>Hey, I'm Jerwin</h1>
+            <p>
+              I'm an aspiring web developer making a career shift from the
+              semiconductor manufacturing industry to the dynamic world of IT.
+            </p>
+            <div class="button-group text-end">
+              <button type="button" class="btn btn-dark reverse-outline btn-lg">
+                Download CV
+                <i class="fa-regular fa-file"></i>
+              </button>
+              <!-- <button
+                type="button"
+                class="btn btn-outline-dark outline-reverse btn-lg"
+              ></button> -->
+              <!-- <a
+                class="btn btn-outline-dark outline-reverse btn-lg"
+                role="botton"
+                href="#about"
+                >About Me <i class="fa-regular fa-address-card"></i
+              ></a> -->
+              <!-- /*edited*/ -->
+              <a
+                class="btn btn-outline-dark outline-reverse btn-lg"
+                role="button"
+                href="#about"
+                >About Me <i class="fa-regular fa-address-card"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col profile-picture">
+            <img class="home-image" src="/images/developer.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="bg-yellow">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col about-section1 text-end">
+            <img class="about-img" src="/images/no-bg-img.png" />
+          </div>
+          <div class="col about-section2">
+            <div>
+              <h2>About Me</h2>
+              <p>
+                With a strong background in semiconductor manufacturing, I have
+                gained valuable skills in problem-solving, attention to detail,
+                and a meticulous approach to work. However, I have always had a
+                passion for technology and its potential to transform the way we
+                live and work. Inspired by the ever-evolving field of web
+                development, I decided to pursue my passion and transition into
+                the IT industry. I am currently honing my skills in HTML, CSS,
+                JavaScript, and other web technologies through self-study and
+                online courses.
+              </p>
+            </div>
+            <div class="about-tabs">
+              <p class="tab-links active-link" onclick="opentab('education')">
+                Education
+              </p>
+              <p class="tab-links" onclick="opentab('work')">Work Experience</p>
+            </div>
+            <div class="tab-contents active-tab" id="education">
+              <ul>
+                <li>
+                  <span>2014 - 2019</span><br />Computer Engineering Technology
+                  at Technological University of the Philippines-Cavite
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="work">
+              <ul>
+                <li>
+                  <span>2020 - 2023</span><br />Equipment Maintenance Technician
+                  at Analog Devices Inc.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <div class="page-title text-center p-5">
+        <h2>My Skills</h2>
+      </div>
+      <div class="container-fluid m-5 skills-section">
+        <div class="row">
+          <div class="skills col">
+            <img class="skills-image" src="/images/html-5.png" alt="" />
+            <div class="skills-description">
+              <h3>HTML</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                aperiam!
+              </p>
+            </div>
+          </div>
+          <div class="skills col">
+            <img class="skills-image" src="/images/css-3.png" alt="" />
+            <div class="skills-description">
+              <h3>CSS</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                aperiam!
+              </p>
+            </div>
+          </div>
+          <div class="skills col">
+            <img class="skills-image" src="/images/bootstrap.png" alt="" />
+            <div class="skills-description">
+              <h3>Bootstrap</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                aperiam!
+              </p>
+            </div>
+          </div>
+          <div class="skills col">
+            <img class="skills-image" src="/images/js.png" alt="" />
+            <div class="skills-description">
+              <h3>JavaScript</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                aperiam!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="text-center">
+        <h2>My Skills</h2>
+      </div>
+      <div class="container-fluid">
+        <div class="skills-description d-flex justify-content-center">
+          <img class="skills-img" src="/images/html-5.png" />
+          <div class="head3 d-flex flex-column bd-highlight mb-3">
+            <h3 class="p-2 bd-highlight">HTML</h3>
+            <p class="p-2 bd-highlight">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Inventore, vel?
+            </p>
+          </div>
+        </div>
+        <div class="skills-description d-flex justify-content-center">
+          <div class="head3 d-flex flex-column bd-highlight mb-3">
+            <h3 class="p-2 bd-highlight">CSS</h3>
+            <p class="p-2 bd-highlight">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Inventore, vel?
+            </p>
+          </div>
+          <img class="skills-img" src="/images/css-3.png" />
+        </div>
+        <div class="skills-description d-flex justify-content-center">
+          <img class="skills-img" src="/images/bootstrap.png" />
+          <div class="head3 d-flex flex-column bd-highlight mb-3">
+            <h3 class="p-2 bd-highlight">Bootstrap</h3>
+            <p class="p-2 bd-highlight">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Inventore, vel?
+            </p>
+          </div>
+        </div>
+        <div class="skills-description d-flex justify-content-center">
+          <div class="head3 d-flex flex-column bd-highlight mb-3">
+            <h3 class="p-2 bd-highlight">JavaScript</h3>
+            <p class="p-2 bd-highlight">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Inventore, vel?
+            </p>
+          </div>
+          <img class="skills-img" src="/images/js.png" />
+        </div>
+      </div> -->
+    </section>
+    <section id="contact">
+      <div class="row">
+        <div class="contact-page text-center">
+          <h2>Contact Me</h2>
+          <h4>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia
+            officia vitae libero temporibus. Eveniet similique beatae in
+            repudiandae earum corrupti.
+          </h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="contact-form col-lg-6 text-center">
+          <form>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Your name (Optional)"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Your email"
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="message"
+                rows="5"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="contact-information col-lg-6">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="help col-lg-2">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="desc col-lg-10">
+                <p>+639762625895</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="help col-lg-2">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="desc col-lg-10"><p>ranisjerwin5@gmail.com</p></div>
+            </div>
+            <div class="row">
+              <div class="help col-lg-2">
+                <i class="fa-sharp fa-solid fa-location-dot"></i>
+              </div>
+              <div class="desc col-lg-10">
+                <p>Paliparan 3, Dasmariñas City, Cavite</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="text-center py-4">
+      <div class="container">
+        <a
+          class="footer-link"
+          href="https://github.com/codewithjerwin"
+          target="_blank"
+          >Github</a
+        >
+        <a
+          class="footer-link"
+          href="https://www.linkedin.com/in/jerwin-ranis-b9200a265/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a
+          class="footer-link"
+          href="https://www.facebook.com/ranisjerwin"
+          target="_blank"
+          >Facebook</a
+        >
+        <p>© 2023 Jerwin Ranis.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c58f71f769.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
